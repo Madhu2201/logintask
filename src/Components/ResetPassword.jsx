@@ -6,13 +6,7 @@ import  { useState,useEffect } from 'react';
 const ResetPassword = () => {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
-  // useEffect(()=>{
-  //   fetchdata()
-  //   },[])
-  //   const fetchdata=async()=>{
-  //    await axios.post("http://localhost:4001/api/resetpassword",email).then((res)=>(setEmail(res))).catch((err)=>(console.error(err)))
-   
-  //   }
+
  
 
   const handleResetPassword = async () => {
